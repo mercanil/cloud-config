@@ -1,4 +1,7 @@
 tracer.property: "I AM THE PROD"
+logging:
+  file: application.log
+  
 spring:
   cache:
     type: redis
